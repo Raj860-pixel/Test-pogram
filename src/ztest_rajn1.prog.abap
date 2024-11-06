@@ -1,8 +1,15 @@
 *&---------------------------------------------------------------------*
-*& Report ZTEST_RAJN
+*& Report ZTEST_RAJN1
 *&---------------------------------------------------------------------*
 *&
 *&---------------------------------------------------------------------*
-REPORT ZTEST_RAJN.
+REPORT ZTEST_RAJN1.
 
-Select * from mara into table @data(lt_mara) up to 100 rows.
+parameter : number1 type i,
+            number2 type i.
+
+data sum type i.
+
+sum = number1 + number2.
+
+write:/ sum.
