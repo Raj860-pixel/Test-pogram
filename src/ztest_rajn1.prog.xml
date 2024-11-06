@@ -21,6 +21,18 @@
      <ENTRY>test program</ENTRY>
      <LENGTH>12</LENGTH>
     </item>
+    <item>
+     <ID>S</ID>
+     <KEY>NUMBER1</KEY>
+     <ENTRY>Number1</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>NUMBER2</KEY>
+     <ENTRY>Number2</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
    </TPOOL>
   </asx:values>
  </asx:abap>
