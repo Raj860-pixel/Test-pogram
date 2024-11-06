@@ -5,7 +5,7 @@
 *&---------------------------------------------------------------------*
 REPORT ZTEST_RAJN1.
 
-parameter : number1 type i,
+parameters : number1 type i,
             number2 type i.
 
 data sum type i.
@@ -13,3 +13,5 @@ data sum type i.
 sum = number1 + number2.
 
 write:/ sum.
+
+write:text-001.
