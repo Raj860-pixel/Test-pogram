@@ -12,7 +12,6 @@ SELECT SINGLE *
   INTO @data(ls_vbak)
  WHERE vbeln = @lv_vbeln.
 
-
 IF sy-subrc = 0.
   WRITE: / 'Sales Document:', ls_vbak-vbeln,
          / 'Document Type:', ls_vbak-auart,
