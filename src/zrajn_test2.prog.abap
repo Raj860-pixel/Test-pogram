@@ -5,14 +5,13 @@
 *&---------------------------------------------------------------------*
 REPORT ZRAJN_TEST2.
 
-DATA: lv_matnr TYPE mara-matnr,
-      ls_mara  TYPE mara.
+DATA: lv_matnr TYPE mara-matnr.
 
-" Fetch data from MARA table
+
 SELECT SINGLE *
   FROM mara
-  INTO ls_mara
- WHERE matnr = lv_matnr.
+  INTO @data(ls_mara)
+ WHERE matnr = @lv_matnr.
 
 
 IF sy-subrc = 0.
